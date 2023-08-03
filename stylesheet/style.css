@@ -1,0 +1,32 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.card{
+    display: block;
+    width: 100%;
+    margin-left:60px;
+    height: 40vh;
+    padding: 20px;
+    background:linear-gradient(45deg,red,rgb(160, 92, 103));
+    color: wheat;
+    margin: 20px;
+
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
